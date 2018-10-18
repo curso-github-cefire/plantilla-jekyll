@@ -1,0 +1,16 @@
+---
+layout: layout
+title:  "Segundo post"
+author: fgonzalezc
+---
+# Post 2
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut condimentum tellus, non aliquet magna. Nam vitae est purus. Nunc semper elit nec est elementum, a luctus sapien iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer blandit justo vel tristique efficitur. Vivamus in augue viverra, ullamcorper neque vel, varius diam. Sed sit amet lectus sagittis, efficitur elit et, tempus dolor. Phasellus ut justo libero.
+
+Suspendisse nisi ex, condimentum id lorem vel, ultrices bibendum ipsum. Etiam ac porttitor ex. Praesent malesuada ac dolor sed porta. Sed nec ipsum mi. Praesent dignissim dui tempus nunc interdum varius. Fusce sagittis volutpat lorem, vel elementum sem auctor a. Integer id massa ex. Etiam mollis sapien dui, quis ullamcorper odio blandit vel. Mauris lacus ex, posuere eu lacus a, luctus fermentum est. Ut venenatis aliquet dui id pellentesque. Donec in mauris vel odio commodo iaculis.
+
+Phasellus lacinia ultrices nisi, et ornare massa iaculis in. Nullam molestie tortor ut quam auctor tempus. Duis ullamcorper ex vitae ante sollicitudin, eget fermentum mi dictum. Curabitur egestas semper velit eget pretium. Quisque non vulputate ipsum. Sed fringilla, ligula quis bibendum placerat, lectus nunc aliquet nibh, non pretium lectus velit at lectus. Sed feugiat ullamcorper suscipit. Vivamus vel tincidunt sapien. Aliquam a ante ornare, pharetra urna ut, laoreet eros. Aenean semper varius ipsum quis posuere. Suspendisse blandit facilisis commodo. Mauris vestibulum cursus ipsum ac imperdiet. Aliquam non pulvinar arcu, at blandit mi. Nullam eros tortor, tincidunt ac feugiat nec, maximus vel ex. Sed sagittis felis urna, vitae pellentesque neque accumsan vitae.
+
+Vestibulum eu dui turpis. Fusce posuere, velit eu feugiat ultricies, mi metus condimentum elit, sed tincidunt leo nibh in arcu. Aenean malesuada vel risus feugiat consectetur. Pellentesque volutpat tristique auctor. Phasellus laoreet, tellus vitae finibus ultrices, sapien tortor elementum arcu, sit amet blandit velit lacus sed mi. Nulla vitae tincidunt ex, rutrum porta lorem. Donec laoreet risus tortor, eu ornare magna mattis vel. Sed mattis velit at sapien euismod, vitae ultrices arcu consequat. In hac habitasse platea dictumst. Nunc eu metus sed mauris convallis ornare ut nec ex. Integer eu lacus iaculis nibh gravida vulputate a at nulla. Donec mi orci, rutrum sed tempor ut, sollicitudin sed dolor. Sed orci lectus, volutpat non dolor vel, pulvinar aliquet nibh.
+
+In efficitur arcu urna, ut sodales sem convallis id. Curabitur et mauris sem. Suspendisse potenti. In efficitur sit amet orci sit amet luctus. Donec fermentum semper arcu, eget vestibulum enim. Nullam vitae consectetur magna, eget gravida nisl. Suspendisse quis ex enim. Duis tellus lectus, semper sed augue at, pulvinar scelerisque nulla. Proin vestibulum odio quis dui commodo, in rutrum nulla pellentesque. Praesent euismod sem nisi, vitae dictum elit ullamcorper ut. Ut malesuada felis malesuada sem porttitor, in iaculis tellus venenatis.
