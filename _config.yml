@@ -23,3 +23,6 @@ url: "http://etomar.github.io" # "http://curso-github-cefire.github.io" # the ba
 
 # Build settings
 markdown: kramdown
+theme: minima
+plugins:
+   - jekyll-feed
