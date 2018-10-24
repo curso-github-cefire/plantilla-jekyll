@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+---
+layout: layout
+---
+<h3>Últimas entradas</h3>
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_string }}
+              <p>{{ post.excerpt }}</p>
+            </li>
+          {% endfor %}
+        </ul>
 <html>
 
   <head>
