@@ -1,0 +1,11 @@
+---
+layout: layout
+title: "Bienvenida al blog"
+---
+
+# Bienvenido al blog de Git
+
+**Grandes noticias**
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum eget sem non maximus. Sed scelerisque dolor vitae orci porta, eget fringilla ligula fringilla. Curabitur facilisis magna vel eros ullamcorper ullamcorper vitae vel metus. Curabitur eu libero vel libero sollicitudin vehicula. Duis erat justo, imperdiet malesuada mi vitae, egestas consequat libero. Vestibulum facilisis, velit sed vestibulum lacinia, odio est suscipit orci, vitae maximus augue erat ac elit. Ut quis porttitor urna. Maecenas posuere turpis nec porta ultricies. Pellentesque porta in dui facilisis dapibus. Quisque tortor est, pharetra sit amet dui semper, fermentum tristique quam. Praesent in dictum metus, at sagittis velit. Pellentesque dictum dui sed nisl malesuada, eget commodo est tempus. Integer nulla risus, aliquet nec fermentum condimentum, pretium eu risus. Phasellus dapibus tortor fermentum, tincidunt justo id, tristique leo. Nulla ac nulla fermentum, commodo lorem at, maximus turpis.
+
+Morbi quis facilisis est, id varius velit. Maecenas ac magna non ex lacinia tincidunt nec id metus. Fusce id lorem at quam ullamcorper ultricies posuere ut sapien. Mauris lobortis maximus congue. Quisque cursus, diam in ornare aliquet, arcu nibh dapibus erat, non interdum risus dui commodo velit. Cras eu sapien arcu. Phasellus gravida non felis vel vulputate. Vivamus nec mauris rutrum, fermentum sem in, ornare erat. Integer viverra, nisl ut imperdiet pretium, dolor ligula varius arcu, vel pretium diam mi ut velit. Curabitur elit turpis, venenatis at elit vitae, iaculis iaculis lorem. 
