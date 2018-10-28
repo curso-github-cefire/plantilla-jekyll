@@ -1,48 +1,18 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset="utf-8">
-    <title>{{page.title}}</title>
-    <meta name="author" content="">
-    <meta name="description" content="">
-  </head>
-
-  <body>
-
-    <header>
-      {% include header.html %}
-    </header>
-
-    <nav>
-      {% include nav.html %}
-    </nav>
-
-    <aside>
-      {% include aside.html %}
-    </aside>
-
-    <section>  
+---
+layout: layout
+---
+<h3>Últimas entradas</h3>
 	<ul>
 
       {% for post in site.posts %}
 	  <li>
 	 
-	      <a href="{{site.baseurl}}{{post.url}}">
+	      <a href="{{site.baseurl}}/{{post.url}}">
 		  {{post.title}}		 
 		  </a>
-	       ({{ post.date }})
-		  <i>{{post.excerpt}}</i>
+	       ({{ post.date}})
+		 <p> <i>{{post.excerpt}}</i></p>
 	  </li>
 	  {% endfor %}
 	
 	  </ul>
-    </section>
-
-    <footer>
-      {% include footer.html %}
-    </footer>
-
-  </body>
-
-</html>
