@@ -1,44 +1,12 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset="utf-8">
-    <title>{{page.title}}</title>
-    <meta name="author" content="">
-    <meta name="description" content="">
-  </head>
-
-  <body>
-
-    <header>
-      {% include header.html %}
-    </header>
-
-    <nav>
-      {% include nav.html %}
-    </nav>
-
-    <aside>
-      {% include aside.html %}
-    </aside>
-
-    <section>
-        {{content}}
-        
-        {% for post in site.posts %}
-        <article>
-            <h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
-            <p>Publicado el {{post.date}}</p>
-            <p>{{ post.excerpt }}</p>
-        </article>
-        <hr>
-        {% endfor %}
-    </section>
-
-    <footer>
-      {% include footer.html %}
-    </footer>
-
-  </body>
-
-</html>
+---
+layout: layout
+---
+       
+{% for post in site.posts %}
+<article>
+    <h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
+    <p>Publicado el {{post.date}}</p>
+    <p>{{ post.excerpt }}</p>
+</article>
+<hr>
+{% endfor %}
