@@ -1,0 +1,9 @@
+<ul>
+  {% for page in site.posts %}
+  <li>
+    <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
+	{{page.date}}
+	{{page.excerpt}}
+  </li>
+  {% endfor %}
+</ul>
