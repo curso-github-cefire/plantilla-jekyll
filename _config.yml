@@ -22,4 +22,8 @@ baseurl: "/plantilla-jekyll" # the subpath of your site, e.g. /blog
 url: "https://albertofuentes74.github.io" # the base hostname & protocol for your site
 
 # Build settings
+layout: plantillablog
 markdown: kramdown
+theme: minima
+plugins:
+        -jekyll-feed
