@@ -1,35 +1,16 @@
-<!DOCTYPE html>
-<html>
+---
+layout: layout
+title: Página de blog
+permalink: /blog
+---
 
-  <head>
-    <meta charset="utf-8">
-    <title>{{page.title}}</title>
-    <meta name="author" content="Alberto Fuentes">
-    <meta name="description" content="Blog de Prueba">
-  </head>
-
-  <body>
-
-    <header>
-      {% include header.html %}
-    </header>
-
-    <nav>
-      {% include nav.html %}
-    </nav>
-
-    <aside>
-      {% include aside.html %}
-    </aside>
-
-    <section>
-      {{content}}
-    </section>
-
-    <footer>
-      {% include footer.html %}
-    </footer>
-
-  </body>
-
-</html>
+<p>Página de blog<p>
+{{content}}
+<ul>
+	{% for post in site.posts %}
+		<li>
+			<a href="{{site.baseurl}}{{ post.url }}">{{ post.title}}</a>
+			{{post.excerpt}}
+		</li>
+		{% endfor %}
+</ul>
