@@ -23,5 +23,3 @@ url: "http://organizacion-sesion-3-daniel-alvarez.github.io " # the base hostnam
 
 # Build settings
 markdown: kramdown
-
-theme: jekyll-theme-minimal
