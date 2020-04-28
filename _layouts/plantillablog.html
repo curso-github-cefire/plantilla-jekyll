@@ -1,0 +1,14 @@
+---
+layout: layout
+---
+
+{{ content }}
+<ul>
+	{% for page in site.posts %}
+	<li>
+		<a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a><br>
+		Publicado el {{page.date}}<br>
+		{{page.excerpt}}
+	</li>
+	{% endfor %}
+</ul>
