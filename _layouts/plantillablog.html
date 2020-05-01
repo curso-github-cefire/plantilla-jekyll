@@ -1,0 +1,62 @@
+---
+layout: layout
+---
+
+<hr>
+
+<div class="blog-rotulo">
+	{{page.title}}
+</div>
+<div class="blog-fecha">
+	{% assign m = page.date | date: "%-m" %}
+	{{ page.date | date: "%-d de" }}
+	{% case m %}
+	  {% when '1' %}enero
+	  {% when '2' %}febrero
+	  {% when '3' %}marzo
+	  {% when '4' %}abril
+	  {% when '5' %}mayo
+	  {% when '6' %}junio
+	  {% when '7' %}julio
+	  {% when '8' %}agosto
+	  {% when '9' %}septiembre
+	  {% when '10' %}octubre
+	  {% when '11' %}noviembre
+	  {% when '12' %}diciembre
+	{% endcase %}
+	{{ page.date | date: "de %Y" }}
+</div>
+<div class="blog-contenido">
+{{content}}
+</div>
+
+<hr>
+
+<h2>Listado de posts</h2>
+{% for post in site.posts %}
+<div class="blog-contenedor">
+	<div class="blog-rotulo">
+		<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+	</div>
+	<div class="blog-fecha">
+		{% assign m = post.date | date: "%-m" %}
+		{{ post.date | date: "%-d de" }}
+		{% case m %}
+		  {% when '1' %}enero
+		  {% when '2' %}febrero
+		  {% when '3' %}marzo
+		  {% when '4' %}abril
+		  {% when '5' %}mayo
+		  {% when '6' %}junio
+		  {% when '7' %}julio
+		  {% when '8' %}agosto
+		  {% when '9' %}septiembre
+		  {% when '10' %}octubre
+		  {% when '11' %}noviembre
+		  {% when '12' %}diciembre
+		{% endcase %}
+		{{ post.date | date: "de %Y" }}
+	</div>
+	<div class="blog-contenido">{{post.excerpt}}</div>
+</div>
+{% endfor %}
