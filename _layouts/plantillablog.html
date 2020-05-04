@@ -1,10 +1,11 @@
 ---
 layout: layout
 ---
+<h3>Índice de posts</h3>
 {% for post in site.posts %}
-<h2><a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a></h2>
-<p>{{page.date}}</p>
-<p>{{page.excerpt}}</p>
+<h4><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h4>
+<p>{{post.date}}</p>
+<p>{{post.excerpt}}</p>
 {% endfor %}
 <hr />
 
