@@ -15,7 +15,14 @@
     </header>
 
     <nav>
-      {% include nav.html %}
+      <ul>
+  {% for page in site.html_pages %}
+  <li>
+    <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
+  
+  </li>
+  {% endfor %}
+</ul>
     </nav>
 
     <aside>
