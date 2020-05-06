@@ -23,5 +23,5 @@ url: "https://organizacion-sesion-3-xusagarciabenaven.github.io" # the base host
 
 # Build settings
 markdown: kramdown
-
+theme: minima
 #theme: jekyll-theme-minimal
