@@ -9,33 +9,19 @@
   </head>
 
   <body>
-
-    <header>
-      {% include header.html %}
-    </header>
-
     <nav>
       <ul>
   {% for page in site.html_pages %}
   <li>
     <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
-  
+     <p align="center">{page.date}</p> 
+	 {page.excerpt}
   </li>
   {% endfor %}
 </ul>
     </nav>
 
-    <aside>
-      {% include aside.html %}
-    </aside>
 
-    <section>
-      {{content}}
-    </section>
-
-    <footer>
-      {% include footer.html %}
-    </footer>
 
   </body>
 
