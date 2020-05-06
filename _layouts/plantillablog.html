@@ -11,12 +11,13 @@
   <body>
     <nav>
       <ul>
-  {% for page in site.html_pages %}
-  <li>
-    <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
-     <p align="center">{page.date}</p> 
-	 {page.excerpt}
-  </li>
+  {% for page in site.posts %}
+  
+   <p align="center"> 
+    <a href="{{site.baseurl}}{{page.url}}">{{page.title}}<br/></a>
+    {{page.date}}</p> 
+	 <p >{{page.excerpt}}</p>
+  
   {% endfor %}
 </ul>
     </nav>
