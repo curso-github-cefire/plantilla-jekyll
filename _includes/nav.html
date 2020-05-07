@@ -1,7 +1,8 @@
 <ul>
   {% for page in site.html_pages %}
   <li>
-    <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
+    <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a> {{page.datetime}}
   </li>
   {% endfor %}
+
 </ul>
