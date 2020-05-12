@@ -1,0 +1,6 @@
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+	<h1>{{myimage.name}}</h1>
+    <img src="{{site.url}}{{site.baseurl}}{{ myimage.path }}" style="border:2px solid black">
+	<br>
+{% endfor %}
