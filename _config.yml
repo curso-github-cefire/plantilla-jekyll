@@ -23,5 +23,3 @@ url: "https://organizacion-sesion-3-ignasi-gomis.github.io" # the base hostname 
 
 # Build settings
 markdown: kramdown
-
-theme: jekyll-theme-time-machine
