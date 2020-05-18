@@ -5,3 +5,8 @@ permalink: /galeria
 ---
 
 <p>Página de galería de imágenes<p>
+
+    {% assign image_files = site.static_files | where: "image", true %}
+    {% for myimage in image_files %}
+    <img src="/plantilla-jekyll/{{ myimage.path }}" /><br/>
+    {% endfor %}

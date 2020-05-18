@@ -23,3 +23,8 @@ url: "https://organizacion-sesion-3-ignasi-gomis.github.io" # the base hostname 
 
 # Build settings
 markdown: kramdown
+defaults:
+  - scope:
+      path: "/images"
+    values:
+      image: true
