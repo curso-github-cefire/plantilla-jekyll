@@ -23,3 +23,4 @@ url: "https://github.com/organizacion-sesion-3-Guillermo-Garrido" # the base hos
 
 # Build settings
 markdown: kramdown
+theme: minima
