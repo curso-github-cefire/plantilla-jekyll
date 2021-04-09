@@ -1,1 +1,7 @@
-Este es mi blog
+---
+layout: layout
+title: About us
+permalink: /about
+---
+
+<p>Este es my blog...<p
