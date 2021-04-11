@@ -5,4 +5,4 @@ permalink: /galeria
 ---
 
 <p>Página de galería de imágenes<p>
-<img src="01_jekyll_version.png">
+<img src="/imeges/01_jekyll_version.png">
