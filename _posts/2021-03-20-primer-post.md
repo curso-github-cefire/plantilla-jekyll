@@ -1,6 +1,5 @@
 ---
- layout: layout
- title: "Mi primer post"
+title: "Mi primer post"
 ---
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tincidunt arcu. Pellentesque dignissim a odio ut rhoncus. Vestibulum bibendum consequat odio, non condimentum arcu sodales sed. In eu tempus erat, sed molestie purus. Suspendisse eu dolor eu odio lobortis lobortis. Donec id sapien augue. Aenean nisl orci, auctor ut luctus et, vestibulum at magna. Quisque consequat rutrum eleifend. Nam et sodales justo.
 
