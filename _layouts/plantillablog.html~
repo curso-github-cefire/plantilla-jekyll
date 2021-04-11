@@ -1,43 +1,14 @@
-
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset="utf-8">
-    <title>{{page.title}}</title>
-    <meta name="author" content="">
-    <meta name="description" content="">
-  </head>
-
-  <body>
-
-    <header>
-      {% include header.html %}
-    </header>
-
-    <nav>
-      {% include nav.html %}
-    </nav>
-
-    <aside>
-      {% include aside.html %}
-    </aside>
-
-    <section>
+---
+layout: layout
+---
+<section>
      {{content}}
-     {% if site.paginate %}
-        {% assign posts = paginator.posts %}
-     {% else %}
-        {% assign posts = site.posts %}
-     {% endif %}
-
-
+ 
      {%- if posts.size > 0 -%}
      {%- if page.list_title -%}
         <h2 class="post-list-heading">{{ page.list_title }}</h2>
      {%- endif -%}
      <ul class="post-list">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {%- for post in posts -%}
            <li>
               <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -52,32 +23,3 @@
            </li>
         {%- endfor -%}
     </ul>
-
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
-
-  {%- endif -%}
-    </section>
-
-    <footer>
-      {% include footer.html %}
-    </footer>
-
-  </body>
-
-</html>
