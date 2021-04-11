@@ -9,6 +9,9 @@ layout: layout
      <li>
        <h3>
        <a  href="{{ site.baseurl }}{{post.url}}">{{post.title}}</a>
+       </h3>
+       <p>{{post.data}}</p>
+       <p>{{post.excerpt}}</p>
      </li>
   {% endfor %}
  </ul>
