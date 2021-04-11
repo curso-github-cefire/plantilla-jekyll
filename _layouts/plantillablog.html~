@@ -8,6 +8,7 @@ layout: layout
      {%- if page.list_title -%}
         <h2 class="post-list-heading">{{ page.list_title }}</h2>
      {%- endif -%}
+     {%- endif -%}
      <ul class="post-list">
         {%- for post in posts -%}
            <li>
