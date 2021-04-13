@@ -3,5 +3,12 @@ layout: layout
 title: Página de Blog
 permalink: /blog
 ---
-
-<p>Página de blog ( modificado por Jesús) <p>
+<h3>Blog</h3>
+        <ul>
+    {% for post in site.posts %}
+    <li>
+        <a href="{{site.baseurl}}{{post.url}}"> {{post.title}}</a> - {{post.date}} 
+        <p>{{ post.excerpt }}</p>
+    </li>   
+    {% endfor %}
+</ul>
