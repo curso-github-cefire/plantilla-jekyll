@@ -4,19 +4,19 @@ layout: layout
 
 {{content}}
 
-<ul>
-{% for post in site.posts %}
+   <h2>Listado de posts</h2>
 
-<li>
-<a href="{{site.baseurl}}{{post.url}}">{{post.title}} </a>
-</li>
-<li>
-<p>{{page.date}}</p>
-</li>
-<li>
-<p>{{page.excerpt}}</p>
-</li>
+  <ul>
+	{% for post in site.posts %}
 
-{% endfor %}
+
+     <li>
+     <a href="{{site.baseurl}}{{post.url}}">{{post.title}} </a>
+	 <h5>{{post.date}}</h5>
+	 <p>{{post.excerpt}}</p>
+	 </li>
+
+
+	{% endfor %}
 
 </ul>
