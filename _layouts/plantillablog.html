@@ -1,0 +1,11 @@
+---
+layout: layout
+---
+     
+     {% for post in site.posts %}
+      <h1><a class="post-link" href="{{ post.url | relative_url }}"> {{ post.title }}</a></h1>
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ post.date | date: date_format }}
+      </time>
+      <p>{{ post.content }}</p>
+     {% endfor %} 

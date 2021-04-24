@@ -1,0 +1,8 @@
+---
+layout: plantillablog
+title:  "Mi primer post"
+date:   2021-04-24 19:09:23 +0200
+---
+
+<h1>Primer post de mi GithubPages</h1>
+<p>Aquí va el contenido del post</p>
