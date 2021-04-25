@@ -1,12 +1,22 @@
-
 ---
 layout: layout
 ---
-     
-     {% for post in site.posts %}
-      <h1><a class="post-link" href="{{ post.url | relative_url }}"> {{ post.title }}</a></h1>
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ post.date | date: date_format }}
-      </time>
-      <p>{{ post.content }}</p>
-     {% endfor %} 
+
+{{content}}
+
+<h2>Posts</h2>
+<ul>
+{%for post in site.posts %}
+
+
+<li>
+<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+{{page.date}}
+<p>
+{{page.excerpt}}
+</p>
+</li>
+
+{%endfor %}
+
+</ul>
