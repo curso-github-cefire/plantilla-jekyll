@@ -1,21 +1,22 @@
-<html>
+---
+layout: layout
+---
 
 {{content}}
 
-<h1>Posts</h1>
+<h2>Posts</h2>
 <ul>
 {%for post in site.posts %}
 
+
 <li>
- <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
 {{page.date}}
 <p>
-  {{page.excerpt}}
+{{page.excerpt}}
 </p>
 </li>
 
 {%endfor %}
 
 </ul>
-
-</html>
