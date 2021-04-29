@@ -5,3 +5,7 @@ permalink: /galeria
 ---
 
 <p>Página de galería de imágenes<p>
+{% assign image_files = site.static_files | where: "img", true %}
+{% for myimage in image_files %}
+	{{ myimage.path }}
+{% endfor %}
