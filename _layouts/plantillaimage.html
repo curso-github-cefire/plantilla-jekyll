@@ -1,0 +1,28 @@
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>{{page.title}}</title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+  </head>
+
+  <body>
+
+    <nav>
+	{% assign image_files = site.static_files | where: "img", true %}
+	<ul>
+       {% for myimage in image_files %}
+    <li>
+      <a href="{{site.baseurl}}{{ post.url }}">{{ myimage.path }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+    </nav>
+    <section>
+      {{content}}
+    </section>
+  </body>
+
+</html>
