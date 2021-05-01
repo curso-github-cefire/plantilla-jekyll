@@ -4,20 +4,17 @@
   <head>
     <meta charset="utf-8">
     <title>{{page.title}}</title>
-    <meta name="author" content="">
-    <meta name="description" content="">
-  </head>
+</head>
 
   <body>
 
     <nav>
-	{% assign image_files = site.static_files | where: "img", true %}
 	<ul>
-       {% for myimage in image_files %}
+       {% for myimage in site.images %}
     <li>
-      <a href="{{site.baseurl}}{{ post.url }}">{{ myimage.path }}</a>
+      <a> {{ myimage.path }}</a>
     </li>
-  {% endfor %}
+       {% endfor %}
   </ul>
     </nav>
     <section>
