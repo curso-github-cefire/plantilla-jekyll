@@ -23,3 +23,5 @@ url: "https://javiermartineziesme.github.io" # the base hostname & protocol for 
 
 # Build settings
 markdown: kramdown
+#theme: minima
+#theme: jekyll-theme-architect
