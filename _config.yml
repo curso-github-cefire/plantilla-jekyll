@@ -23,4 +23,3 @@ url: "https://organizacion-sesion-3-senen-rodenas.github.io" # the base hostname
 
 # Build settings
 markdown: kramdown
-theme: minima
