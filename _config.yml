@@ -23,3 +23,5 @@ url: "https://organizacion-sesion-3-david-ortiz.github.io/" # the base hostname 
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-minimal
