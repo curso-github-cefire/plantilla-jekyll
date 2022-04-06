@@ -5,7 +5,7 @@ date: 2022-04-01 23:59:00 +0200
 categories: jekyll
 ---
 
-** "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." **
+**"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."**
 "No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor."
 
 ## Lorem Ipsum

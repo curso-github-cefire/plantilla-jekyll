@@ -4,4 +4,14 @@ title: Página de galería de imágenes
 permalink: /galeria
 ---
 
-<p>Página de galería de imágenes<p>
+{% assign filenames = "images/img1.png,images/img2.png,images/img3.png" | split: "," %}
+<h2>Página de galería de imágenes<h2>
+<div class ="image-gallery">
+    {% for name in filenames %}
+        <div class="box">
+        <a href="{{ site.imagesurl }}{{ name }}">
+          <img src="{{ site.thumbsurl }}{{ name }} " alt="{{ name }}"  class="img-gallery" />
+         </a>
+        </div>
+     {% endfor %}
+</div>
