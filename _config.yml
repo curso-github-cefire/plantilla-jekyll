@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Sitio web creado como ejemplo de esqueleto para
   crear un sitio web con Jekyll
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nsantonjamolina.github.io/plantilla-jekyll-v2/""
+url: "https://nsantonjamolina.github.io/plantilla-jekyll-v2/"
 
 # Build settings
 markdown: kramdown
