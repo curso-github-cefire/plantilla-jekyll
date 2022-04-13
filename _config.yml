@@ -23,3 +23,9 @@ url: "https://jasocar.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+# Build settings
+#theme: minima
+#plugins:
+#  - jekyll-feed
+
