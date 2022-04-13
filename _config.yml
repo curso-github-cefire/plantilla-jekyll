@@ -22,4 +22,4 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nsantonjamolina.github.io/plantilla-jekyll-v2/"
 
 # Build settings
-markdown: kramdown
+theme: minima
