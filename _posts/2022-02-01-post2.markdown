@@ -1,0 +1,9 @@
+---
+layout: layout
+title: "Segundo post"
+date: 2022-02-01 15:52 +0200
+---
+
+Proin venenatis a leo in aliquet. Sed dolor libero, placerat et magna ut, consectetur fermentum sapien. Nullam interdum lectus in blandit accumsan. Sed volutpat ornare erat. 
+
+Aliquam fermentum ipsum arcu, vitae condimentum metus tincidunt quis. Curabitur eleifend velit at varius scelerisque. Vivamus turpis purus, pharetra at imperdiet eget, sodales ut augue. Sed sodales nisl id dignissim dictum. Aliquam erat volutpat

@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: plantillablog
 title: Página del blog
 permalink: /blog
 ---

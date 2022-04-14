@@ -1,0 +1,9 @@
+---
+layout: layout
+title: "Primer post"
+date: 2022-01-01 15:52 +0200
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non sem mauris. Cras sagittis aliquam erat sit amet mollis.
+
+Pellentesque gravida, tellus eget malesuada lobortis, tellus mauris commodo odio, non facilisis ligula dolor vitae nulla.
