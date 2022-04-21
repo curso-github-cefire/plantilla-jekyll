@@ -26,14 +26,13 @@
 	
 	  {{content}}
 	  <h2> Listado de posts </h2>
-	  
+	  <ul>
       {% for post in site.posts %}
-	  Hola
-	  <ul><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></ul>
+	  <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
 	  {{post.date}}
 	  {{post.excerpt}}
 	  {% endfor}
-	  
+	  </ul>
     </section>
 
     <footer>
