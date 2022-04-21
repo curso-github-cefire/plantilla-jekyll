@@ -23,15 +23,17 @@
     </aside>
 
     <section>
+	
+	  {{content}}
+	  <h2> Listado de posts </h2>
+	  
       {% for post in site.posts %}
-	  	  <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
-	  {{page.date}}
-	  {{page.excerpt}}
+	  
+	  <ul><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></ul>
+	  {{post.date}}
+	  {{post.excerpt}}
 	  {% endfor}
-    </section>
-
-    <section>
-      {{content}}
+	  
     </section>
 
     <footer>
