@@ -23,6 +23,14 @@
     </aside>
 
     <section>
+      {% for post in site.posts %}
+	  	  <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
+	  {{page.date}}
+	  {{page.excerpt}}
+	  {% endfor}
+    </section>
+
+    <section>
       {{content}}
     </section>
 
