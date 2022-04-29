@@ -8,11 +8,11 @@ permalink: /galeria
 	
 	{% for image in site.baseurl %}
 
-       {% if image.path contains 'images/' %}
+       
       		
-           <img src="{{ site.baseurl }}{{ image.path }}" alt="{{image.name}}" width="800px"/>
+          <p> <img src="{{ site.baseurl }}{{ image.path }}" alt="{{image.name}}" width="800px"/>
              
 		</p>
-       {% endif %}
+      
  
 {% endfor %}
