@@ -5,5 +5,14 @@ permalink: /galeria
 ---
 
 <p>Página de galería de imágenes<p>
-<p><img src="jekyll-v.png" alt="versión de jekyll" width="75%"></p>
-<p><img src="localhost_4000.png" alt="jekyll en local" width="75%"></p>
+	
+	{% for image in site.static_files %}
+
+       {% if image.path contains 'images/' %}
+      		
+           <img src="{{ site.baseurl }}{{ image.path }}" alt="{{image.name}}" />
+             
+		</p>
+       {% endif %}
+ 
+{% endfor %}
