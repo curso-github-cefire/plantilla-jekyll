@@ -23,3 +23,5 @@ url: "D:/CEFIRE/curso-github/plantilla-jekyll/plantilla-jekyll" # the base hostn
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-tactile
