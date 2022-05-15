@@ -5,9 +5,9 @@ layout: layout
 <ul>
 {% for post in site.posts %}
   <li>
-    <a href="{{site.baseurl}}{{post.url}}">post.title</a>
-    <date>post.date</date>
-    <quote>post.excerpt</quote>
+    <a href="{{post.url}}">{{post.title}}</a>
+    <date>{{post.date}}</date>
+    <quote>{{post.excerpt}}</quote>
   </li>
 {% endfor %}
 </ul>
