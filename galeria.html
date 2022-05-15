@@ -5,3 +5,8 @@ permalink: /galeria
 ---
 
 <p>Página de galería de imágenes<p>
+{% for image in site.static_files %}
+    {% if image.path contains 'images/' %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image.title" title="image.title" />
+    {% endif %}
+{% endfor %}
