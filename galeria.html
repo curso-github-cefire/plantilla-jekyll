@@ -7,6 +7,6 @@ permalink: /galeria
 <p>Página de galería de imágenes<p>
 {% for image in site.static_files %}
     {% if image.path contains 'images/' %}
-        <p><img src="{{ site.baseurl }}{{ image.path }}" alt="{{image.name}}" title="{{image.name}}" /></p>
+        <p><img src="{{ site.baseurl }}{{ image.path }}" alt="{{image.name}}" title="{{image.name}}" style="border: 5px solid darkred"/></p>
     {% endif %}
 {% endfor %}
