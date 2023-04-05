@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+	<h1> Lista de Posts de mi primer sitio con Jekyll </h1>
+    <ul>
+	  {% for page in site.posts %}
+	  <li>
+		<a href="{{site.baseurl}}{{page.url}}">
+			Título: {{page.title}} <br/>
+			Resumen: {{page.excerpt}} <br />
+			Fecha: {{page.date}}
+		</a>
+	  </li>
+	  <br/>
+	  {% endfor %}
+	</ul>
+
+  </body>
+</html>
