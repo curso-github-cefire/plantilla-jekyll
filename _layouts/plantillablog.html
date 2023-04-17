@@ -1,0 +1,15 @@
+---
+layout: layout
+---
+
+{{content}}
+<p>Listado de los últimos posts publicados:</p>
+{% for post in site.posts %}
+  	{% if post.title %}
+	  <li>
+	    <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+	    <p>{{post.date}}</p>
+	    <p>{{post.excerpt}}</p>
+	  </li>
+  	{% endif %}
+{% endfor %}
