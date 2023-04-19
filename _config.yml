@@ -23,3 +23,6 @@ url: "https://organizacion-sesion-3-ferran-mas.github.io/" # the base hostname &
 
 # Build settings
 markdown: kramdown
+
+
+excerpt_separator: <!--more-->
