@@ -27,16 +27,15 @@
       <h2>Listado de Posts</h2>
       <ul>
         {% for post in site.posts %}
-        <li>
-          <a href="{{site.baseurl}}{{post.url}}">{{post.tittle}} </a>
-          {{post.date}}
-          {{post.content}}
-          {{post.excerpt}}
-        </li>
+        	<li>
+          		<b><a href="{{site.baseurl}}{{post.url}}">{{post.title}} </a></b>
+          		<i>{{post.date}}</i><br>
+          		{{post.excerpt}}
+        	</li>
         
          {% endfor %}
       </ul>
-      
+	      
      
     </section>
 

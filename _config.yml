@@ -23,3 +23,9 @@ url: "https://organizacion-sesion-3-silvia-vilar.github.io" # the base hostname 
 
 # Build settings
 markdown: kramdown
+# Indicamos la carpeta de imágenes
+defaults:
+  - scope:
+      path: "images"
+    values:
+      image: true
