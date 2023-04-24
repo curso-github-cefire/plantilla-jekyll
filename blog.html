@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: plantillablog
 title: Blog
 permalink: /blog
 ---
@@ -9,7 +9,9 @@ permalink: /blog
 <ul>
     {% for post in site.posts %}
         <li>
-        <a href="/plantilla-jekyll{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <p>{{ post.date }}</p>
+        <p>{{ post.content }}</p>
         </li>
     {% endfor %}
 </ul>
