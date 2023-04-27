@@ -24,3 +24,5 @@ site.posts: "_posts"
 # Build settings
 markdown: kramdown
 theme: minima
+pluggins:
+    - jekyll-feed
