@@ -1,0 +1,16 @@
+---
+layout: layout
+---
+{{content}}
+
+<h3>LISTADO DE POSTS</h3>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{site.baseurl}}{{post.url}}"> {{post.title}}</a>
+      <p>Resumen: {% if post.excerpt %} {{post.excerpt}}... {% endif %} </p>
+      <h6>Fecha Publicación: {{post.date}}</h6>
+    </li>
+  {% endfor %}
+</ul>
+</html>
