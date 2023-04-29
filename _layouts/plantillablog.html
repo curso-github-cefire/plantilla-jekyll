@@ -8,8 +8,9 @@ layout: layout
   {% for post in site.posts %}
     <li>
       <a href="{{site.baseurl}}{{post.url}}"> {{post.title}}</a>
-      <p>Resumen: {% if post.excerpt %} {{post.excerpt}}... {% endif %} </p>
       <h6>Fecha Publicación: {{post.date}}</h6>
+      <p>Resumen: {% if post.excerpt %} {{post.excerpt}}... {% endif %} </p>
+      
     </li>
   {% endfor %}
 </ul>
