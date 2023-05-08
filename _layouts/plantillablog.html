@@ -15,15 +15,15 @@
     </header>
 
     <nav>
-        <li>
-            <a href="{{site.baseurl}}/post1">Post 1</a>
-        </li>
-        <li>
-            <a href="{{site.baseurl}}/post2">Post 2</a>
-        </li>
-        <li>
-            <a href="{{site.baseurl}}/post3">Post 3</a>
-        </li>
+        <ul>
+            {% for post in site.posts %}
+            <li>
+                <h3><a href="{{post.url}}">{{ post.title }}</a></h3>
+                <p>{{ post.date | date: "%B %d, %Y" }}</p>
+                <p>{{ post.excerpt }}</p>
+            </li>
+            {% endfor %}
+        </ul>
     </nav>
 
     <aside>
