@@ -2,6 +2,14 @@
 layout: layout
 title: Página de galería de imágenes
 permalink: /galeria
+imagenes: [punto2.png, punto5.png]
 ---
 
 <p>Página de galería de imágenes<p>
+    <ul>
+
+    </ul>
+{% for img in page.imagenes  %}
+        <li style="margin: 20px;"><img src="{{ site.baseurl }}/assets/images/{{ img }}" /></li>
+{% endfor %}    
+    </ul>
