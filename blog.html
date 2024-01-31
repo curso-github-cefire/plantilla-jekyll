@@ -1,7 +1,15 @@
 ---
-layout: layout
+layout: plantillablog
 title: Blog
 permalink: /blog
 ---
 
-Esto es el blog
+<ul>
+    {% for post in site.posts %}
+      <li>
+       <h3> <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a><br> </h3>
+        {{ post.date }} <br>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+</ul>
