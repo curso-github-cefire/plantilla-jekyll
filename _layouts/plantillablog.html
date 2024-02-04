@@ -1,0 +1,15 @@
+---
+layout: layout
+---
+
+<ul>
+
+{% for page in site.posts %}
+
+<li>
+{{page.date}} <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a> {{ page.excerpt }}
+</li>
+
+{% endfor %}
+
+</ul>
