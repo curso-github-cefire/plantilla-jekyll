@@ -1,0 +1,16 @@
+---
+layout: layout
+---
+
+{{content}}
+
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <p></p><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a><br>
+    Fecha: {{post.date}}<br>
+    Este es el avance del post: {{post.excerpt}}</p>
+
+  </li>
+  {% endfor %}
+</ul>
