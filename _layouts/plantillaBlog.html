@@ -13,13 +13,13 @@
     
     <section>
       {{content}}
-      -----
+      
       {{page.title}}
       <ul>
         
       {% for page in site-post %}
       <li> hola
-        <a href="{{site.baseurl}}{{page.url}}">{{page.tittle}}</a>
+        <a href="{{page.url}}">{{page.tittle}}</a>
         {{page.date}}
         {{page.content}}
       </li>
