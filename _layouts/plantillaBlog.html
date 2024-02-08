@@ -10,25 +10,14 @@
 
   <body>
 
-    <header>
-      {% include header.html %}
-    </header>
-
-    <nav>
-      {% include nav.html %}
-    </nav>
-
-    <aside>
-      {% include aside.html %}
-    </aside>
-
+    
     <section>
       {{content}}
       <ul>
         
       {% for page in site-post %}
       <li> hola
-       <!-- <a href="{{site.baseurl}}{{page.url}}">{{page.tittle}}</a>-->
+        <a href="{{site.baseurl}}{{page.url}}">{{page.tittle}}</a>
         {{page.date}}
         {{page.content}}
       </li>
@@ -36,11 +25,7 @@
       
     </ul>
 
-    </section>
-
-    <footer>
-      {% include footer.html %}
-    </footer>
+   
 
   </body>
 
