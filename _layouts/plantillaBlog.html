@@ -16,11 +16,11 @@
       
       {{page.title}}
       <ul>
-      {% for post in site.post %}
+      {% for post in site.posts %}
       <li>
         <a href="{{site.baseurl}}{{post.url}}">{{post.url}}</a>
         {{post.date}}
-        {{post.content}}
+        {{post.title}}
       </li>
       {% endfor %}
     </ul>
