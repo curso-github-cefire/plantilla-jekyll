@@ -16,15 +16,13 @@
       
       {{page.title}}
       <ul>
-        
-      {% for page in site-post %}
-      <li> hola
-        <a href="{{page.url}}">{{page.tittle}}</a>
-        {{page.date}}
-        {{page.content}}
+      {% for post in site.post %}
+      <li>
+        <a href="{{site.baseurl}}{{post.url}}">{{post.url}}</a>
+        {{post.date}}
+        {{post.content}}
       </li>
       {% endfor %}
-      
     </ul>
 
    
