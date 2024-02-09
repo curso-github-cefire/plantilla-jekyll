@@ -20,4 +20,5 @@ description: > # this means to ignore newlines until "baseurl:"
   crear un sitio web con Jekyll
 baseurl: "/plantilla-jekyll" # the subpath of your site, e.g. /blog
 #url: "http://curso-github-cefire.github.io" # the base hostname & protocol for your site
-url: "https://github.com/vp-marti" # the base hostname & protocol for your site
+#url: "https://github.com/vp-marti" # the base hostname & protocol for your site
+url: "https://vp-marti.github.io" # the base hostname & protocol for your site
