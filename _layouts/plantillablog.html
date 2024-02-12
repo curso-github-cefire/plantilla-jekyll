@@ -1,0 +1,15 @@
+---
+layout: layout
+---
+ {{content}}
+
+ <h2>Listado de entradas de blog</h2>
+ 
+ <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a> - {{post.date}} - {{post.content}}
+          </li>
+        {% endfor %}
+ </ul>
+ 
