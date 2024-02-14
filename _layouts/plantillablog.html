@@ -10,25 +10,13 @@
 
   <body>
 
-    <header>
-      {% include header.html %}
-    </header>
-
-    <nav>
-      {% include nav.html %}
-    </nav>
-
-    <aside>
-      {% include aside.html %}
-    </aside>
-
-    <section>
-      {{content}}
-    </section>
-
-    <footer>
-      {% include footer.html %}
-    </footer>
+    <ul>
+  {% for page in site.html_pages %}
+  <li>
+    <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
+  </li>
+  {% endfor %}
+</ul>
 
   </body>
 
