@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+</head>
+
+<body>
+
+  <header>
+    {% include header.html %}
+  </header>
+
+  <nav>
+    {% include nav.html %}
+  </nav>
+
+  <aside>
+    {% include aside.html %}
+  </aside>
+
+  <section>
+    {% for post in site.posts %}
+    <article>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.date | date_to_string }}</p>
+      <p>{{ post.content | strip_html | truncatewords: 50 }}</p> <!-- Muestra un extracto del contenido, con un máximo de 50 palabras -->
+    </article>
+    {% endfor %}
+  </section>
+
+  <footer>
+    {% include footer.html %}
+  </footer>
+
+</body>
+
+</html>
