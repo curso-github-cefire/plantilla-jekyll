@@ -10,11 +10,11 @@
 
   <body>
 
-    <ul>
-  {% for page in site.html_pages %}
-  <li>
-    <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
-  </li>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
   {% endfor %}
 </ul>
 
