@@ -2,10 +2,16 @@
 layout: layout
 ---
 
+{{content}}
+	  
 <ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
+	{% for post in site.posts %}
+	
+		<li>
+			<a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a> 
+			<p>{{ post.date }}</p> 
+			<p>{{ post.excerpt }}</p>
+		</li>
+		
+	{% endfor %}
 </ul>
