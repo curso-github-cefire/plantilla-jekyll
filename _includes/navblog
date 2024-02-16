@@ -1,0 +1,9 @@
+<ul>
+	 {% for post in site.posts %}
+	
+	 <li>
+	 	<span>{{post.date | date_to_string }}</span> <a href="{{post.baseurl}}" title="{{ post.title }}">{{ post.title }}</a><p>{{ post.excerpt}}</p>
+	 </li>
+
+	 {% endfor %}
+</ul>
