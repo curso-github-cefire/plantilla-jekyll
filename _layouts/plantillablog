@@ -18,8 +18,10 @@
     <nav>
       <ul>
       <li>
+{% for page in site.html_pages %}
       <a href="{{site.baseurl}}{{page.url}}>{{page.title}}</a>
       </li>
+{% endfor %}
       </ul>
     </nav>
 
