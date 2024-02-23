@@ -20,3 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   crear un sitio web con Jekyll
 baseurl: "/plantilla-jekyll" # the subpath of your site, e.g. /blog
 url: "https://jmartinezedu.github.io" # the base hostname & protocol for your 
+
+sass:
+    sass_dir: _sass
+    style: compact 

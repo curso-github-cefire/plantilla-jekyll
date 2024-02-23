@@ -7,9 +7,13 @@ layout: layout
  {{ content }}
 
 <ul>
+    {%- assign date_format = site.date_format | default: "%-d %b , %Y" -%}
 {% for post in site.posts %}
 <li>
-<a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+    <span> {{ post.date | date: date_format }} </span> :: <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a> 
+     {{ post.excerpt }} 
+
 </li>
+<br/>
  {% endfor %}
 </ul>
