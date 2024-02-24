@@ -1,0 +1,18 @@
+---
+layout: layout
+---
+
+{{content}}
+
+<section>
+ {% for post in site.posts %}
+	<article>
+		<h1>
+		  {{ post.date }} - <a href="{{ post.url }}">{{ post.title }}</a>
+		<h1>
+		<p>
+			{{ post.excerpt }}
+		</p>
+	</article>
+	{% endfor %}
+</section>
