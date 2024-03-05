@@ -1,0 +1,18 @@
+---
+layout: layout
+---
+
+{{content}}
+
+<h2>Paso 10: Listado de los posts del sitio</h2>
+
+<ul>
+  {% for post in site.posts %}
+
+  <li>
+    <a href="{{site.baseurl}}{{post.url}}">{{post.title}}{{post.date}}{{post.content}}</a>
+  </li>
+
+{% endfor %}
+
+</ul>
