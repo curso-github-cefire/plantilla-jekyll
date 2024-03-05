@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Plantilla Jekyll
-email: example@domain.com
+email: a.calabuigpuigvert@edu.gva.es
 description: > # this means to ignore newlines until "baseurl:"
   Sitio web creado como ejemplo de esqueleto para
   crear un sitio web con Jekyll
-baseurl: "/plantilla-jekyll" # the subpath of your site, e.g. /blog
-url: "http://curso-github-cefire.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://organizacion-sesion-3-acp.github.io/" # the base hostname & protocol for your site
