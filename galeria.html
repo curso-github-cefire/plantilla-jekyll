@@ -7,6 +7,7 @@ permalink: /galeria
 <p>Página de galería de imágenes</p>
 
 {% assign image_files = site.static_files | where: "image", true %}
+<p>{{site.static_files}}</p>
 {% for myimage in image_files %}
 <div>
     <img src="{{site.baseurl}}{{myimage.path}}"/>
