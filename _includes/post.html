@@ -1,0 +1,12 @@
+<ul>
+    {% for page in site.posts %}
+
+    {% if page.title %}
+    <li>
+         <a href="{{site.baseurl}}{{page.url}}">{{page.title}}         </a> 
+        <p>{{page.date}}</p>
+        <p>{{ page.content  | strip_html | truncate: 200 }}</p>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
