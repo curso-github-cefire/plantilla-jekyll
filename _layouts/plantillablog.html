@@ -1,0 +1,14 @@
+---
+layout: layout
+---
+
+{{content}}
+
+<h1> posts </h1>
+<ul>
+  {% for post in site.posts %}
+  <li>
+    {{post.date}} || <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a> || {{post.author}}
+  </li>
+  {% endfor %}
+</ul>

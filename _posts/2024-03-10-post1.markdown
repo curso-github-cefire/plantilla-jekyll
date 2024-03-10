@@ -1,0 +1,20 @@
+---
+layout: layout
+title: "entrada de post número 1 - inicio"
+date: 2024-03-10 06:10:00 +0200
+author: "arturo bc"
+---
+<!--more-->
+entrada de post número 1 - inicio
+<!--more-->
+
+<p><strong>POST</strong>, siglas en inglés de power-on self-test o autoprueba de arranque, es un proceso de verificación e inicialización de los componentes de entrada y salida en un sistema computacional que se encarga de configurar y diagnosticar el estado del hardware.</p>
+
+<h2>BIOS</h2>
+<p>El sistema básico de entrada-salida o BIOS (del inglés Basic Input/Output System) es un estándar de facto que define la interfaz de firmware para computadoras IBM PC compatibles1​. También es conocido como BIOS del sistema, ROM BIOS y BIOS de PC. El nombre se originó en 1975, en el BIOS usado por el sistema operativo CP/M.2​
+
+El firmware del BIOS es instalado dentro de la computadora personal (PC), y es el primer programa que se ejecuta cuando se enciende la computadora.
+
+El propósito fundamental del BIOS es iniciar, y probar el hardware del sistema y cargar un gestor de arranque o un sistema operativo desde un dispositivo de almacenamiento de datos. Además, el BIOS provee una capa de abstracción para el hardware, por ejemplo, que consiste en una vía para que los programas de aplicaciones y los sistemas operativos interactúen con el teclado, el monitor y otros dispositivos de entrada/salida. Las variaciones que ocurren en el hardware del sistema quedan ocultas por el BIOS, ya que los programas usan servicios de BIOS en lugar de acceder directamente al hardware. Los sistemas operativos modernos ignoran la capa de abstracción provista por el BIOS y acceden al hardware directamente.
+
+El BIOS del PC/XT de IBM original no tenía interfaz interactiva con el usuario. Los mensajes de error eran mostrados en la pantalla, o codificados por medio de una serie de sonidos. Las opciones en la PC y el XT se establecían por medio de interruptores y jumpers en la placa base y en las placas de los periféricos. Las modernas computadoras compatibles Wintel proveen una rutina de configuración, accesible al iniciar el sistema mediante una secuencia de teclas específica. El usuario puede configurar las opciones del sistema usando el teclado y el monitor. </p>
